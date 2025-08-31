@@ -1,12 +1,8 @@
-import Image from "next/image";
-
-import { Button } from "~/components/atoms";
-
+import Form from "@/components/organisms/form";
 export default function HomePage() {
   return (
     <>
-      <h1>Welcome to the homepage!</h1>
-      <Button>Add Transaction</Button>
+    <Form></Form>
     </>
   );
 }
